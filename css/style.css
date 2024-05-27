@@ -1,0 +1,243 @@
+.container {
+    padding: 72px 0 0 0;
+
+}
+
+.slick-list {
+    .card-body {
+        padding: 0;
+    }
+}
+
+.info.active {
+    margin-top: 192px;
+    margin-left: 120px;
+    position: absolute;
+}
+
+.info.two {
+    margin-top: 208px;
+    margin-left: 122px;
+    max-width: 594px;
+    position: absolute;
+
+}
+
+
+
+.info.one {
+    margin-top: 208px;
+    margin-left: 122px;
+    max-width: 525px;
+    margin-right: 210px;
+
+
+}
+
+
+.card-body.one {
+    background-image: url('/images/tea.png');
+    background-size: 45% 95%;
+    background-position: right;
+    background-repeat: no-repeat;
+    aspect-ratio: auto;
+
+}
+
+.card-title.main {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55.2px;
+    text-align: left;
+    margin-bottom: 70px;
+
+}
+
+.card-text.main {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    margin-bottom: 70px;
+
+}
+
+.btn-primary.main {
+    width: 170px;
+    height: 38px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.item {
+    margin-bottom: 50px
+}
+
+.container.question {
+    max-width: 65%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container.form {
+    max-width: 50%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 48px;
+}
+
+
+.accordion-button {
+    border-radius: 10px 10px 10px 10px;
+    background: #076BFF;
+    color: white;
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    fill: currentColor;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-item:first-of-type .accordion-button {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.accordion-item {
+    border: 0;
+}
+
+.accordion-button:not(.collapsed) {
+    background: #076BFF;
+    color: white;
+}
+
+.accordion-body {
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 24px;
+    text-align: left;
+}
+
+.footer__rights {
+    margin: 19px 0 19px 0;
+}
+
+.custom_prev {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 13px;
+    top: 46%;
+
+    .svg {
+        stroke-width: 1px; /* Толщина обводки - 1px */
+    }
+}
+
+.custom_next {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 13px;
+    top: 46%;
+
+    .svg {
+        stroke-width: 1px; /* Толщина обводки - 1px */
+    }
+}
+
+
+.accordion {
+    max-width: 856px;
+    margin: 0 auto;
+}
+
+.accordion .accordion-section {
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.accordion .accordion-section h3 {
+    background: linear-gradient(360deg, #076BFF 0%, #007BFF 100%);
+    padding: 25px;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+}
+
+.accordion .accordion-section .content {
+    display: none;
+    padding: 16px;
+    border: none;
+    font-size: 16px;
+
+}
+.accordion__arrow {
+    position: relative; /* Добавить позиционирование */
+    cursor: pointer;
+
+
+}
+
+.accordion__arrow svg {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    right: 24px;
+    top: 24px;
+    transition: transform 0.3s ease; /* Добавить плавный переход */
+
+}
+
+.accordion__arrow-open svg {
+    transform: rotate(180deg); /* Поворот на 180 градусов */
+}
+
+.carousel{
+    min-height: 100%;
+    width: 100%;
+    height: 640px;
+    top: 0;
+    left: 0;
+}
+.card-body .img {
+
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
